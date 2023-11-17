@@ -1,0 +1,37 @@
+Ctrl Shift B   - to beautify the code
+flex-wrap: wrap; code that doesn't fit will go to the next row
+@keyframes - CSS animation function 
+Ctrl G - Search the code line by the number
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

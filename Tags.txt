@@ -1,0 +1,127 @@
+section.hero>h1.hero-title+p.hero-text
+
+<section class="hero">
+     <h1 class="hero-title"></h1>
+     <p class="hero-text"></p>
+</section>
+
+-----------------------------------------
+
+figure.hero-img>img+a.hero-link
+
+<figure class="hero-img">
+     <img src="" alt="">
+     <a href="" class="hero-link"></a>
+</figure>
+
+----------------------------------------
+
+ul.hero-list>li.hero-item*3>span
+
+<ul class="hero-list">
+     <li class="hero-item"><span></span></li>
+     <li class="hero-item"><span></span></li>
+     <li class="hero-item"><span></span></li>
+</ul>
+
+---------------------------------------
+
+section.service>.service-wrapper.container>.service-content+.service-img.figure>img
+
+<section class="service">
+     <div class="service-wrapper container">
+         <div class="service-content"></div>
+         <div class="service-img figure"><img src="" alt=""></div>
+     </div>
+</section>
+
+----------------------------------------
+
+.wrapper.vegetable-inner-wrapper>.vegetable-wrapper.container>figure.vegetable-img>img^.vegetable-contant
+
+<div class="wrapper vegetable-inner-wrapper">
+     <div class="vegetable-wrapper container">
+          <figure class="vegetable-img"><img src="" alt=""></figure>
+          <div class="vegetable-contant"></div>
+     </div>               
+</div>
+
+---------------------------------------
+
+a.service-link
+
+<a href="#" class="service-link"></a>  // # was manually added
+
+---------------------------------------
+
+h2.service-title.inner-title+p.service-text.inner-text
+
+<h2 class="service-title inner-title"></h2>
+<p class="service-text inner-text"></p>
+
+----------------------------------------
+
+ul.service-list>li.service.item*3>span.icon+span.service-item__title+span.service-item__text
+
+<ul class="service-list">
+    <li class="service item"><span class="icon"></span><span class="service-item__title"></span><span class="service-item__text"></span></li>
+    <li class="service item"><span class="icon"></span><span class="service-item__title"></span><span class="service-item__text"></span></li>
+    <li class="service item"><span class="icon"></span><span class="service-item__title"></span><span class="service-item__text"></span></li>
+</ul>
+
+----------------------------------------
+
+section.customers>.wrapper>.container.customers-slider>.customer-block>.customer-wrapper>.customer-content>h2.inner-title.customer-title+p.inner-text.customer-text+span.customer-name+.customer-starts^figure.customer-img>img
+
+            <section class="customers">
+                <div class="wrapper">
+                    <div class="container customers-slider">
+                        <div class="customer-block">
+                            <div class="customer-wrapper">
+                                <div class="customer-content">
+                                    <h2 class="inner-title customer-title"></h2>
+                                    <p class="inner-text customer-text"></p>
+                                    <span class="customer-name"></span>
+                                    <div class="customer-starts"></div>
+                                </div>
+                                <figure class="customer-img"><img src="" alt=""></figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+----------------------------------------
+
+btn.btn.slider-btn.slider-prev
+
+<button class="btn slider-btn slider-prev"></button>
+
+-----------------------------------------
+
+section.app>.container.app-wrapper>figure.app-img>img^.app-content>span.app-subtitle+h2.inner-title+p.inner-text.app-text
+
+            <section class="app">
+                <div class="container app-wrapper">
+                    <figure class="app-img"><img src="" alt=""></figure>
+                    <div class="app-content">
+                        <span class="app-subtitle"></span>
+                        <h2 class="inner-title inner-text app-text"></h2> 
+                        <p class="inner-text app-text"></p>
+                    </div>
+                </div>
+            </section>
+
+-----------------------------------------
+
+footer.footer>.container.footer-wrapper>footer-block*4
+
+            <footer class="footer">
+                <div class="container footer-wrapper">
+                    <footer-block></footer-block>
+                    <footer-block></footer-block>
+                    <footer-block></footer-block>
+                    <footer-block></footer-block>
+                </div>
+            </footer>
+
